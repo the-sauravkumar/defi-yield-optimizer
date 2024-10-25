@@ -1,0 +1,9 @@
+1) cargo clean
+
+2) cargo update
+
+3) cargo build --target wasm32-unknown-unknown --release
+
+4) near login
+
+5) near deploy YOUR_ACCOUNT.testnet target/wasm32-unknown-unknown/release/defi_yield_optimizer.wasm
